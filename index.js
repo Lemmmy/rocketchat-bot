@@ -1,0 +1,1 @@
+module.exports.Bot = require("./src/bot.js");

@@ -1,0 +1,40 @@
+{
+  "name": "rocketchat-bot",
+  "version": "1.0.0",
+  "description": "Bot framework for rocket.chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemmmy/rocketchat-bot.git"
+  },
+  "keywords": [
+    "rocketchat",
+    "rocket",
+    "chat",
+    "bot",
+    "framework"
+  ],
+  "author": "Lemmmy",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/lemmmy/rocketchat-bot/issues"
+  },
+  "homepage": "https://github.com/lemmmy/rocketchat-bot#readme",
+  "dependencies": {
+    "aggregation": "^1.2.0",
+    "bot-commander": "^1.1.1",
+    "glob": "latest",
+    "lodash": "latest",
+    "request-promise-native": "^1.0.4",
+    "uuid": "^3.1.0",
+    "websocket": "^1.0.24",
+    "websocket-as-promised": "^0.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "node-dice-js": "^0.1.2"
+  }
+}
